@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    <svg xmlns="http://www.w3.org/2000/svg" style="display:none">
+        <symbol id="icon-linkedin" viewBox="0 0 448 512">
+            <path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8A53.79 53.79 0 0 1 107.58 53.8c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.4 0-55.8 37.8-55.8 76.9V448h-92.7V148.9h88.9v40.8h1.3c12.4-23.4 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z"/>
+        </symbol>
+        <symbol id="icon-github" viewBox="0 0 496 512">
+            <path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244 8C106.2 8 0 113.3 0 252c0 110.9 69.8 205.8 169 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.9 21.9 38.6 58.6 27.5 73 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-109.5 0-27.2 7.6-41.2 23.6-58.6-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.4 25.9 31.4 25.9 58.6 0 95.5-58.6 103.3-114.5 109.5 9.2 7.9 17 23.4 17 47.4 0 34.3-.3 76.3-.3 84.7 0 6.5 4.6 14.4 17.3 12.1C426.2 457.8 496 362.9 496 252 496 113.3 383.8 8 244 8z"/>
+        </symbol>
+        <symbol id="icon-envelope" viewBox="0 0 512 512">
+            <path d="M502.3 190.8 327.4 338.3c-15.9 13.4-39.1 13.4-55 0L9.7 190.8C3.9 185.9 0 178 0 169.6 0 150.7 15.5 135.1 34.4 135.1h443.2c18.9 0 34.4 15.5 34.4 34.4 0 8.4-3.9 16.3-9.7 21.3zM480 224.6 352 336c-39.7 33.4-97.4 33.4-137.1 0L32 224.6V377c0 18.9 15.5 34.4 34.4 34.4h379.2c18.9 0 34.4-15.5 34.4-34.4V224.6z"/>
+        </symbol>
+        <symbol id="icon-html5" viewBox="0 0 128 128">
+            <path fill="#e34f26" d="M19 2l9 100 36 10 36-10 9-100H19z"/>
+            <path fill="#ef652a" d="M64 108l29-8 8-88H64v96z"/>
+            <path fill="#fff" d="M64 52H53l-1-12h12V28H39l3 36h22V52zm0 28l-10-3-1-12H41l2 24 21 6V80z"/>
+            <path fill="#fff" d="M64 52v12h11l-1 13-10 3v12l21-6 3-36H64z"/>
+        </symbol>
+        <symbol id="icon-css3" viewBox="0 0 128 128">
+            <path fill="#1572B6" d="M19 2l9 100 36 10 36-10 9-100H19z"/>
+            <path fill="#33A9DC" d="M64 108l29-8 8-88H64v96z"/>
+            <path fill="#fff" d="M64 52H53l-1-12h12V28H39l3 36h22V52zm0 28l-10-3-1-12H41l2 24 21 6V80z"/>
+            <path fill="#fff" d="M64 52v12h11l-1 13-10 3v12l21-6 3-36H64z"/>
+        </symbol>
+        <symbol id="icon-js" viewBox="0 0 128 128">
+            <rect width="128" height="128" rx="10" fill="#f7df1e"/>
+            <path fill="#000" d="M83.8 97.9c2.4 3.9 5.5 6.8 11 6.8 4.6 0 7.5-2.3 7.5-5.5 0-3.8-3-5.1-8-7.3l-2.8-1.2c-8.1-3.4-13.5-7.7-13.5-16.7 0-8.3 6.3-14.6 16.2-14.6 7 0 12 2.4 15.6 8.7l-8.5 5.5c-1.9-3.4-3.9-4.8-7.1-4.8-3.2 0-5.3 2.1-5.3 4.8 0 3.4 2.1 4.8 6.9 6.8l2.8 1.2c9.5 4.1 15 8.2 15 17.5 0 10-7.9 15.5-18.5 15.5-10.3 0-16.9-4.9-20.1-11.3ZM47.2 98.8c1.6 2.9 3.1 5.3 6.7 5.3 3.4 0 5.5-1.3 5.5-6.2V59.1h10.3v38c0 10.7-6.3 15.6-15.5 15.6-8.3 0-13.1-4.3-15.6-9.5l8.6-5.4Z"/>
+        </symbol>
+    </svg>
+
+    <header>
+        <a href ="#home" class="logo">kritika</a>
+        <nav class="horizontal-nav" aria-label="main navigation">
+            <a href ="#home" class="active">home</a>
+            <a href ="#skills">skills</a>
+            <a href ="#projects">projects</a>
+            <a href ="#contact">contact</a>
+        </nav>
+    </header>
+
+    <section id="home" class="home">
+        <div class="home-img">
+            <img src="main.jpg" alt="Portrait of Kritika Sharma">
+        </div>
+        <div class="home-content">
+            <h1>Hi,its<span> kritika</span></h1>
+            <h3 class="typing-text">i'm <span></span></h3>
+            <p>a dedicated Frontend Developer with a strong focus on building responsive, user-friendly, and visually appealing web applications.</p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/kritika-sharma-b3a004399?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BaLu%2FPGkQQACTx6kwb85fXw%3D%3D" target="_blank" rel="noopener" aria-label="LinkedIn profile">
+                    <svg class="icon social-icon-svg" aria-hidden="true"><use href="#icon-linkedin"/></svg><span class="visually-hidden">LinkedIn</span>
+                </a>
+                <a href="https://github.com/kritika3113" target="_blank" rel="noopener" aria-label="GitHub profile">
+                    <svg class="icon social-icon-svg" aria-hidden="true"><use href="#icon-github"/></svg><span class="visually-hidden">GitHub</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section-block skills">
+        <h2>My Skills</h2>
+        <div class="skills-icons" aria-label="Technologies">
+            <figure>
+                <svg class="skill-icon html5" aria-hidden="true"><use href="#icon-html5"/></svg>
+                <figcaption>HTML5</figcaption>
+            </figure>
+            <figure>
+                <svg class="skill-icon css3" aria-hidden="true"><use href="#icon-css3"/></svg>
+                <figcaption>CSS3</figcaption>
+            </figure>
+            <figure>
+                <svg class="skill-icon javascript" aria-hidden="true"><use href="#icon-js"/></svg>
+                <figcaption>JavaScript</figcaption>
+            </figure>
+            <figure>
+                <svg class="skill-icon github" aria-hidden="true"><use href="#icon-github"/></svg>
+                <figcaption>GitHub</figcaption>
+            </figure>
+        </div>
+    </section>
+
+    <section id="projects" class="section-block projects">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+            <a class="project-card" href="#" aria-label="Interactive Quiz Application">
+                <img loading="lazy" src="https://via.placeholder.com/640x400?text=Quiz+App" alt="Interactive Quiz Application screenshot">
+                <div class="project-overlay"><span>Interactive Quiz Application</span></div>
+            </a>
+            <a class="project-card" href="#" aria-label="Real-Time Chat Application">
+                <img loading="lazy" src="https://via.placeholder.com/640x400?text=Chat+App" alt="Real-Time Chat Application screenshot">
+                <div class="project-overlay"><span>Real-Time Chat Application</span></div>
+            </a>
+            <a class="project-card" href="#" aria-label="E-Learning Platform UI">
+                <img loading="lazy" src="https://via.placeholder.com/640x400?text=E-Learning+UI" alt="E-Learning Platform UI screenshot">
+                <div class="project-overlay"><span>E-Learning Platform UI</span></div>
+            </a>
+        </div>
+    </section>
+
+    <section id="contact" class="section-block contact">
+        <h2>Get In Touch</h2>
+        <p class="contact-text">Feel free to reach out to me for any inquiries or collaborations.</p>
+        <div class="contact-content">
+            <a href="mailto:kritikasharma31013v@gmail.com" class="email-link">
+                <svg class="icon email-icon" aria-hidden="true"><use href="#icon-envelope"/></svg>
+                <span class="email-text">kritikasharma31013v@gmail.com</span>
+            </a>
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=kritikasharma31013v@gmail.com" class="gmail-link" target="_blank" rel="noopener">Open in Gmail</a>
+        </div>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/kritika-sharma-b3a004399?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BaLu%2FPGkQQACTx6kwb85fXw%3D%3D" aria-label="LinkedIn" class="social-link" target="_blank" rel="noopener">
+                <svg class="icon social-icon-svg" aria-hidden="true"><use href="#icon-linkedin"/></svg><span class="visually-hidden">LinkedIn</span>
+            </a>
+            <a href="https://github.com/kritika3113" aria-label="GitHub" class="social-link" target="_blank" rel="noopener">
+                <svg class="icon social-icon-svg" aria-hidden="true"><use href="#icon-github"/></svg><span class="visually-hidden">GitHub</span>
+            </a>
+        </div>
+        <p class="footer-text">© 2025 Kritika. All rights reserved.</p>
+    </section>
+</body>
+</html>
