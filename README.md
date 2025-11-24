@@ -1,10 +1,38 @@
- PERSONAL-PORTFOLIO-WEBPAGE<br>
- *Company* CODTECH IT SOLUTIONS<br>
- *Name* KRITIKA SHARMA<br>
- *Intern ID* CTO8DR78<br>
- *Domain* FRONT END DEVELOPMET<br>
- *Duration* 8 Weeks<br>
- *Mentor* NEELA SANTOSH<br>
+ PERSONAL-PORTFOLIO-WEBPAGE:-
 
- This project involved developing a Personal Portfolio Webpage using core front-end technologies: HTML for structure and CSS for styling, demonstrating fundamental layout and design principles the entire codebase was managed using VS Code as the editor and GitHub for version control 
-this portfolio serves my practical skills in building and deploying a professional, foundational web presence as a Front-End Developer.
+
+## Author & Internship Details
+- **Company:** CODTECH IT SOLUTIONS  
+- **Name:** KRITIKA SHARMA  
+- **Intern ID:** CTO8DR78  
+- **Domain:** Front-End Development  
+- **Duration:** 8 Weeks  
+- **Mentor:** NEELA SANTOSH
+
+## Overview
+This personal portfolio showcases my front-end development work and acts as a central hub for my professional presence. It highlights key projects, skills, and contact information through a responsive single-page layout built with semantic HTML and modern CSS.
+
+## Features
+- Clean, responsive layout optimised for desktop and mobile screens
+- Sections for hero intro, about, skills, projects, and contact
+- Smooth scrolling navigation and accessible semantic structure
+- Lightweight implementation with no external JavaScript dependencies
+
+## Tech Stack
+- HTML5
+- CSS3
+- VS Code for development
+- Git and GitHub for version control and hosting
+
+## Getting Started
+1. Clone the repository:
+	```powershell
+	git clone https://github.com/kritika3113/PERSONAL-PORTFOLIO-WEBPAGE.git
+	```
+2. Open the project folder in VS Code or your preferred editor.
+3. Launch `index.html` in your browser to explore the portfolio locally.
+
+## Project Structure
+- `index.html` – Main entry point containing all portfolio sections
+- `style.css` – Global styles for layout, typography, and responsiveness
+- `README.md` – Project documentation 
